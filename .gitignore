@@ -29,7 +29,8 @@ _ReSharper*/
 [Ll]icense.config
 /**/imagecache/
 
-
+#nuget
+/**/[Pp]ackages/
 
 #bower components
 /**/bower_components/
