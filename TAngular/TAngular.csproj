@@ -72,6 +72,16 @@
     <Content Include="package.json" />
     <Content Include=".bowerrc" />
     <Content Include="bower.json" />
+    <Content Include="Static\css\style.css" />
+    <Content Include="Static\css\style.min.css" />
+    <Content Include="Static\fonts\fontawesome-webfont.svg" />
+    <Content Include="Static\js\application.min.js.map" />
+    <Content Include="Static\src\less\style.less" />
+    <Content Include="Static\fonts\fontawesome-webfont.eot" />
+    <Content Include="Static\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Static\fonts\fontawesome-webfont.woff" />
+    <Content Include="Static\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Static\fonts\FontAwesome.otf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -81,8 +91,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="default.htm" />
-    <Content Include="gulpfile.config.js" />
     <Content Include="gulpfile.js" />
+    <Content Include="Static\js\application.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -106,11 +116,8 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Static\css\" />
-    <Folder Include="Static\fonts\" />
     <Folder Include="Static\js\ts\" />
     <Folder Include="Static\src\img\" />
-    <Folder Include="Static\src\less\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
